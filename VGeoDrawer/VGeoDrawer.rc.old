@@ -1,0 +1,785 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\VGeoDrawer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\VGeoDrawer.ico"
+IDR_VGeoDrawerTYPE      ICON                    "res\\VGeoDrawerDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_FULLSCREEN          BITMAP                  "res\\toolbar1.bmp"
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar2.bmp"
+IDB_BITMAP3             BITMAP                  "res\\bitmap3.bmp"
+IDB_NEWPOINT            BITMAP                  "res\\GeoIcon\\NewPoint.bmp"
+IDR_TOOLBAR_ICON        BITMAP                  "res\\toolbar3.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 16
+BEGIN
+	BUTTON	ID_FILE_NEW
+	BUTTON	ID_FILE_OPEN
+	BUTTON	ID_FILE_SAVE
+	SEPARATOR
+	BUTTON	ID_FILE_PRINT
+	BUTTON	ID_FILE_PRINT_PREVIEW
+	SEPARATOR
+	BUTTON	ID_EDIT_CUT
+	BUTTON	ID_EDIT_COPY
+	BUTTON	ID_EDIT_PASTE
+	BUTTON	ID_EDIT_DELETE
+	SEPARATOR
+	BUTTON	ID_EDIT_UNDO
+	BUTTON	ID_EDIT_REDO
+	SEPARATOR
+	BUTTON	ID_APP_ABOUT
+END
+
+IDR_FULLSCREEN TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_VIEW_FULL_SCREEN
+END
+
+IDR_TOOLBAR2 TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_BUTTON32846
+END
+
+IDR_TOOLBAR_ICON TOOLBAR  16, 15
+BEGIN
+	BUTTON	IDR_ICON_RECTSEL
+	BUTTON	IDR_ICON_PEN
+	BUTTON	IDR_ICON_LINE
+	BUTTON	IDR_ICON_CURVE
+	BUTTON	IDR_ICON_TEXT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "New \tCtrl+N",                ID_FILE_NEW
+        MENUITEM "Open\tCtrl+O",                ID_FILE_OPEN
+        MENUITEM "Save\tCtrl+S",                ID_FILE_SAVE
+        MENUITEM "Save As...",                  ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        POPUP "Export"
+        BEGIN
+            MENUITEM "Graphic View",                32771
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "New Window",                  32772
+        MENUITEM SEPARATOR
+        MENUITEM "Print...\tCtrl+P",            ID_FILE_PRINT
+        MENUITEM "Print Preview",               ID_FILE_PRINT_PREVIEW
+        MENUITEM "Page Setup...",               ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent Files",                ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_APP_EXIT
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM "&Redo\tCtrl+Y",               ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "&Delete\tDel",                32773
+        MENUITEM SEPARATOR
+        MENUITEM "Select All\tCtrl+A",          ID_EDIT_SELECT_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "Properties",                  ID_EDIT_PROPERTIES
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Axis",                        ID_VIEW_AXIS
+        MENUITEM "Grid",                        ID_VIEW_GRID
+        POPUP "Grid Form"
+        BEGIN
+            MENUITEM "Polar Grid",                  32776
+            MENUITEM "Square Grid",                 32777
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Show All Objects",            ID_VIEW_SHOW_ALL_OBJECTS
+        MENUITEM "Standard View",               ID_VIEW_STANDARD_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Tools Window",                ID_VIEW_TOOLS_WINDOW
+        MENUITEM "Tool Information Window",     ID_VIEW_INFORMATION_WINDOW
+        MENUITEM "Command Input",               ID_VIEW_COMMAND_INPUT
+        MENUITEM "Geometry Objects Window",     ID_VIEW_GEOOBJ_WINDOW
+        MENUITEM "Properties Window",           ID_VIEW_PROPERTIES_WINDOW
+        MENUITEM SEPARATOR
+        MENUITEM "Toolbox",                     ID_VIEW_TOOLBOX
+        MENUITEM SEPARATOR
+        MENUITEM "Toolbar",                     ID_VIEW_TOOLBAR
+        MENUITEM "Status Bar",                  ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Full Screen",                 ID_VIEW_FULL_SCREEN
+    END
+    POPUP "Options"
+    BEGIN
+        MENUITEM "New Tool",                    ID_OPTIONS_NEW_TOOL
+        MENUITEM "Organize Tools",              ID_OPTIONS_COMMANDS_ORGANIZE
+        MENUITEM "Customize Toolbox",           ID_OPTIONS_CUSTOMIZE_TOOLBOX
+        MENUITEM SEPARATOR
+        POPUP "Language"
+        BEGIN
+            MENUITEM "English",                     ID_LANGUAGE_ENGLISH
+            MENUITEM "Vietnamese",                  ID_LANGUAGE_VIETNAMESE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Options",                     ID_OPTIONS_OPTIONS
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "Help",                        ID_HELP_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "About...",                    ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP MENU 
+BEGIN
+    POPUP "DrawingPad"
+    BEGIN
+        MENUITEM "Axis",                        ID_VIEW_AXIS
+        MENUITEM "Grid",                        ID_VIEW_GRID
+        MENUITEM SEPARATOR
+        MENUITEM "Show All Objects",            ID_VIEW_SHOW_ALL_OBJECTS
+        MENUITEM "Standard Views",              ID_VIEW_STANDARD_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Full Screen",                 ID_VIEW_FULL_SCREEN
+        MENUITEM SEPARATOR
+        MENUITEM "Properties",                  ID_EDIT_PROPERTIES
+    END
+    POPUP "Object"
+    BEGIN
+        MENUITEM "Hide Object",                 ID_OBJECT_HIDEOBJECT
+        MENUITEM "Label",                       ID_OBJECT_SHOW
+        MENUITEM SEPARATOR
+        MENUITEM "Go To Definition Command",    ID_OBJECT_GOTODEFINITIONCOMMAND
+        MENUITEM SEPARATOR
+        MENUITEM "Rename",                      ID_OBJECT_RENAME
+        MENUITEM "Delete",                      ID_OBJECT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Properties",                  ID_OBJECT_PROPERTIES
+    END
+    POPUP "Objects"
+    BEGIN
+        MENUITEM "Hide Objects",                ID_OBJECTS_HIDEOBJECTS
+        MENUITEM SEPARATOR
+        MENUITEM "Delete",                      ID_OBJECTS_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Properties",                  ID_OBJECTS_PROPERTIES
+    END
+    POPUP "ListWnd"
+    BEGIN
+        POPUP "Group By"
+        BEGIN
+            MENUITEM "Name",                        ID_GROUPBY_NAME
+            MENUITEM "Type",                        ID_GROUPBY_OBJECT
+            MENUITEM "Properties",                  ID_GROUPBY_PROPERTIES
+        END
+    END
+    POPUP "Toolbox"
+    BEGIN
+        MENUITEM "Customize Toolbox",           ID_OPTIONS_CUSTOMIZE_TOOLBOX
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "A",            ID_EDIT_SELECT_ALL,     VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About VGeoDrawer"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "VGeoDrawer Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_OPTIONS DIALOGEX 0, 0, 264, 211
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,153,187,50,17
+    PUSHBUTTON      "Cancel",IDCANCEL,207,187,50,17
+    CONTROL         "",IDC_TAB_OPTION,"SysTabControl32",0x0,7,7,250,175
+END
+
+IDD_COMMANDS_ORGANIZE DIALOGEX 0, 0, 361, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Commands"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "New",IDC_NEW,6,5,20,19
+    PUSHBUTTON      "Del",IDC_DELETE,28,5,20,19
+    PUSHBUTTON      "From File",IDC_FROMFILE,112,5,20,19
+    CONTROL         "",IDC_TREE_COMMAND,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | TVS_SHOWSELALWAYS | TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,7,28,124,155,WS_EX_LEFTSCROLLBAR
+    CONTROL         "Input :",IDC_STATIC1,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,25,24,8,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_TAB_COMMAND,"SysTabControl32",0x0,135,5,219,179
+    PUSHBUTTON      "Cancel",ID_CANCEL,304,187,50,15
+    EDITTEXT        IDC_EDIT,140,39,209,123,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "Group similar commands",IDC_CHECK_GROUP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,190,89,8,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_INPUT,170,22,179,14,ES_AUTOHSCROLL
+    CONTROL         "Output :",IDC_STATIC2,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,168,30,8,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_OUTPUT,174,165,175,14,ES_AUTOHSCROLL
+    LTEXT           "Name :",IDC_STATIC3,142,26,23,8
+    EDITTEXT        IDC_EDIT_NAME,170,22,179,14,ES_AUTOHSCROLL
+    CONTROL         "Description :",IDC_STATIC4,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,142,41,51,8,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_DES,140,53,209,124,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "OK",ID_BUTTON_OK,251,187,50,15
+END
+
+IDD_PROPERTIES_AXIS_GRID DIALOGEX 0, 0, 141, 149
+STYLE DS_SETFONT | WS_CHILD | WS_VSCROLL
+EXSTYLE WS_EX_STATICEDGE
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    CONTROL         "Show Axis",IDC_CHECK_SHOW_AXIS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,6,71,13
+    CONTROL         "Show Grid",IDC_CHECK_SHOW_GRID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,20,71,13
+END
+
+IDD_PROPERTIES_COMMON DIALOGEX 0, 0, 141, 258
+STYLE DS_SETFONT | WS_CHILD | WS_VSCROLL | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,3,116,151
+    LTEXT           "Name :",IDC_STATIC,15,14,25,10
+    EDITTEXT        IDC_EDIT_NAME,52,12,64,14,ES_AUTOHSCROLL
+    LTEXT           "Description :",IDC_STATIC,15,31,43,10
+    EDITTEXT        IDC_EDIT_DESCRIPTION,14,44,102,34,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN
+    CONTROL         "Visible",IDC_CHECK_VISIBLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,83,30,10
+    CONTROL         "Show Label",ID_CHECK_LABEL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,97,50,10
+    CONTROL         "Name",ID_CHECK_LABEL3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,111,50,10
+    CONTROL         "Value",ID_CHECK_LABEL4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,125,50,10
+    CONTROL         "Fix",ID_CHECK_LABEL2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,138,30,10
+    GROUPBOX        "Color",IDC_STATIC,7,159,116,83
+END
+
+IDD_PROPERTIES_POINT DIALOGEX 0, 0, 144, 239
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VSCROLL | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Value",IDC_STATIC,7,7,119,79
+    LTEXT           "Value :",IDC_STATIC,12,18,35,9
+    EDITTEXT        IDC_EDIT_VALUE,43,16,76,14,ES_AUTOHSCROLL
+    LTEXT           "Coordinates :",IDC_STATIC,12,31,51,9
+    CONTROL         "Cartesian coordinates",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,24,43,93,10
+    CONTROL         "Polar coordinates",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,24,56,93,10
+    CONTROL         "Complex number",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,24,69,93,10
+    GROUPBOX        "Style",IDC_STATIC,7,89,119,66
+    LTEXT           "Point size :",IDC_STATIC,14,102,35,9
+    CONTROL         "",IDC_SLIDER_POINT_SIZE,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,53,101,69,13
+    LTEXT           "Point style :",IDC_STATIC,14,120,46,10
+END
+
+IDD_PROPERTIES_LINE DIALOGEX 0, 0, 144, 239
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VSCROLL | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_OBJLISTWND DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,7,6,172,82
+END
+
+IDD_MATHDRAWWND DIALOGEX 0, 0, 350, 198
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Formula Editor"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,7,336,15,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,26,336,165
+END
+
+IDD_CUSTOMIZE_TOOLBOX DIALOGEX 0, 0, 330, 222
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Customize"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,219,199,50,16
+    PUSHBUTTON      "Cancel",IDCANCEL,273,199,50,16
+    CONTROL         "",IDC_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,10,9,128,167
+    DEFPUSHBUTTON   "Restore defaults",IDOK2,7,199,79,16
+    PUSHBUTTON      "< Insert",IDC_BUTTON1,145,41,39,16
+    PUSHBUTTON      "Remove >",IDC_BUTTON2,144,60,43,16
+    PUSHBUTTON      "Up",IDC_BUTTON3,9,178,39,16
+    PUSHBUTTON      "Down",IDC_BUTTON4,53,178,39,16
+    GROUPBOX        "",IDC_STATIC,8,3,316,193
+    PUSHBUTTON      "Add / Change Item",IDC_BTN_ADDITEM,243,178,79,16
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,193,9,128,167
+END
+
+IDD_ADDTOOL DIALOGEX 0, 0, 276, 350
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Tool"
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    LTEXT           "Name :",IDC_STATIC,7,8,26,9
+    EDITTEXT        IDC_EDIT9,39,7,230,12,ES_AUTOHSCROLL
+    CONTROL         "Add current construction",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,7,26,93,12
+    GROUPBOX        "",IDC_STATIC,7,37,262,82
+    LTEXT           "Input :",IDC_STATIC,21,48,26,9
+    COMBOBOX        IDC_COMBO1,53,46,166,14,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_BUTTON1,228,44,32,16
+    EDITTEXT        IDC_EDIT4,53,63,166,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Clear",IDC_BUTTON2,228,61,32,16
+    LTEXT           "Output :",IDC_STATIC,21,85,31,9
+    COMBOBOX        IDC_COMBO2,53,83,166,14,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_BUTTON3,228,81,32,16
+    EDITTEXT        IDC_EDIT5,53,100,166,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Clear",IDC_BUTTON4,228,98,32,16
+    CONTROL         "Add by command",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,7,122,67,12
+    GROUPBOX        "",IDC_STATIC,7,135,262,102
+    LTEXT           "Input :",IDC_STATIC,21,145,26,9
+    EDITTEXT        IDC_EDIT7,53,144,209,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,19,161,243,55,ES_AUTOHSCROLL
+    LTEXT           "Output :",IDC_STATIC,21,222,30,9
+    EDITTEXT        IDC_EDIT8,53,221,209,12,ES_AUTOHSCROLL
+    LTEXT           "Icon :",IDC_STATIC,21,281,26,9
+    EDITTEXT        IDC_EDIT10,60,280,184,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "...",ID_ICON_BTN,248,280,16,13
+    DEFPUSHBUTTON   "Add",IDOK,163,329,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,219,329,50,14
+    CONTROL         "Only add to current sketch",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,328,97,15
+    CONTROL         "Add Toolbox Item",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,242,73,10
+    GROUPBOX        "",IDC_STATIC,7,252,262,70
+    ICON            "",IDC_STATIC,135,297,21,20,0,WS_EX_STATICEDGE
+    LTEXT           "Category :",IDC_STATIC,21,264,36,9
+    COMBOBOX        IDC_COMBO3,60,262,202,14,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ADD_TOOLBOX_ITEM DIALOGEX 0, 0, 235, 286
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Toolbox Item"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,124,265,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,178,264,50,14
+    LTEXT           "Command name :",IDC_STATIC,7,9,57,12
+    COMBOBOX        IDC_COMBO,75,7,153,15,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Icon :",IDC_STATIC,7,26,26,9
+    EDITTEXT        IDC_FILENAME,75,24,131,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "...",ID_ICON_BTN,212,24,16,13
+    CONTROL         "Custom",IDC_ICON_EDITOR,"IconEditor",WS_TABSTOP,7,61,177,162
+    CONTROL         "Custom2",IDC_CUSTOM2,"ColorPicker",WS_TABSTOP,7,226,178,31
+    CONTROL         "",IDC_STATIC_TOOLBAR,"Static",SS_BLACKFRAME,7,41,176,13
+    GROUPBOX        "Preview",IDC_STATIC,188,59,40,39
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Author : Dang Viet Trung"
+            VALUE "FileDescription", "VGeoDrawer"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "VGeoDrawer.exe"
+            VALUE "LegalCopyright", "TODO: (c) VGeoDrawer.  All rights reserved."
+            VALUE "OriginalFilename", "VGeoDrawer.exe"
+            VALUE "ProductName", "VGeoDrawer"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 257
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+
+    IDD_COMMANDS_ORGANIZE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 354
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_PROPERTIES_AXIS_GRID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 142
+    END
+
+    IDD_PROPERTIES_COMMON, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+
+    IDD_PROPERTIES_POINT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 126
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_PROPERTIES_LINE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 126
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_OBJLISTWND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_MATHDRAWWND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 343
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_CUSTOMIZE_TOOLBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 323
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_ADDTOOL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 343
+    END
+
+    IDD_ADD_TOOLBOX_ITEM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 279
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_PEN          CURSOR                  "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "VGeoDrawer\n\nVGeoDrawer\nVGeoDrawer Files (*.vgdr)\n.vgdr\nVGeoDrawer.Document\nVGeoDrawer.Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "VGeoDrawer"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "New\nNew"
+    ID_FILE_OPEN            "Open File\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy\nCopy"
+    ID_EDIT_CUT             "Cut\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Paste\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\VGeoDrawer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

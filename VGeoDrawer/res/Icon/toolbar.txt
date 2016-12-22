@@ -1,0 +1,12 @@
+D:\Projects\VGeoDrawer\VGeoDrawer\res\Icon\New.bmp
+D:\Projects\VGeoDrawer\VGeoDrawer\res\Icon\Open.bmp
+D:\Projects\VGeoDrawer\VGeoDrawer\res\Icon\Save.bmp
+D:\Projects\VGeoDrawer\VGeoDrawer\res\Icon\Print.bmp
+D:\Projects\VGeoDrawer\VGeoDrawer\res\Icon\PrintPreview.bmp
+D:\Projects\VGeoDrawer\VGeoDrawer\res\Icon\Cut.bmp
+D:\Projects\VGeoDrawer\VGeoDrawer\res\Icon\Copy.bmp
+D:\Projects\VGeoDrawer\VGeoDrawer\res\Icon\Paste.bmp
+E:\Documents and Settings\Trung\Desktop\gif\TBar_gifs16\delete.gif
+D:\Projects\VGeoDrawer\VGeoDrawer\res\Undo.bmp
+D:\Projects\VGeoDrawer\VGeoDrawer\res\Redo.bmp
+D:\Projects\Copy of VGeoDrawer\VGeoDrawer\res\Help.bmp

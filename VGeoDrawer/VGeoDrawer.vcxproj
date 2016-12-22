@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{97CBE711-23A9-4C7C-BB17-FA9BBEBEF1E4}</ProjectGuid>
+    <RootNamespace>VGeoDrawer</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level2</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="appfunc.cpp" />
+    <ClCompile Include="AxisInfo.cpp" />
+    <ClCompile Include="CommandArray.cpp" />
+    <ClCompile Include="EventDlg.cpp" />
+    <ClCompile Include="GradientEditDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="PresSetting.cpp" />
+    <ClCompile Include="SplashDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="VGeoDrawer.cpp" />
+    <ClCompile Include="VGeoDrawerDoc.cpp" />
+    <ClCompile Include="VGeoDrawerView.cpp" />
+    <ClCompile Include="VGObjContainer.cpp" />
+    <ClCompile Include="ObjValue.cpp" />
+    <ClCompile Include="VGAngle.cpp" />
+    <ClCompile Include="VGBezierSpline.cpp" />
+    <ClCompile Include="VGBound.cpp" />
+    <ClCompile Include="VGButton.cpp" />
+    <ClCompile Include="VGButtonBase.cpp" />
+    <ClCompile Include="VGCardinalSpline.cpp" />
+    <ClCompile Include="VGCheckBox.cpp" />
+    <ClCompile Include="VGCircle.cpp" />
+    <ClCompile Include="VGConic.cpp" />
+    <ClCompile Include="VGExpression.cpp" />
+    <ClCompile Include="VGFunction.cpp" />
+    <ClCompile Include="VGGrid.cpp" />
+    <ClCompile Include="VGImage.cpp" />
+    <ClCompile Include="VGLine.cpp" />
+    <ClCompile Include="VGLineBase.cpp" />
+    <ClCompile Include="VGObject.cpp" />
+    <ClCompile Include="VGObjLabel.cpp" />
+    <ClCompile Include="VGPanel.cpp" />
+    <ClCompile Include="VGPoint.cpp" />
+    <ClCompile Include="VGPolygon.cpp" />
+    <ClCompile Include="VGRadioButton.cpp" />
+    <ClCompile Include="VGRay.cpp" />
+    <ClCompile Include="VGSegment.cpp" />
+    <ClCompile Include="VGSlider.cpp" />
+    <ClCompile Include="VGText.cpp" />
+    <ClCompile Include="VGVector.cpp" />
+    <ClCompile Include="ColorButton.cpp" />
+    <ClCompile Include="ColorPicker.cpp" />
+    <ClCompile Include="IconEditor.cpp" />
+    <ClCompile Include="StyleComboBox.cpp" />
+    <ClCompile Include="sizecbar.cpp" />
+    <ClCompile Include="DynDialogEx.cpp" />
+    <ClCompile Include="DynDialogItemEx.cpp" />
+    <ClCompile Include="ListDynDialogEx.cpp" />
+    <ClCompile Include="PropertyGrid.cpp" />
+    <ClCompile Include="PropertyGridCombo.cpp" />
+    <ClCompile Include="PropertyGridInPlaceEdit.cpp" />
+    <ClCompile Include="PropertyGridItem.cpp" />
+    <ClCompile Include="PropertyGridSection.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="CmdEdit\CmdEdit.cpp" />
+    <ClCompile Include="CommandPromptListBox.cpp" />
+    <ClCompile Include="CmdEdit\ParamTooltipCtrl.cpp" />
+    <ClCompile Include="PropertiesBar.cpp" />
+    <ClCompile Include="PropertyButtonCmd.cpp" />
+    <ClCompile Include="PropertyGradient.cpp" />
+    <ClCompile Include="PropertyTextItem.cpp" />
+    <ClCompile Include="BtnItem.cpp" />
+    <ClCompile Include="ButtonPopup.cpp" />
+    <ClCompile Include="ObjToolBar.cpp" />
+    <ClCompile Include="CommandCtrlBar.cpp" />
+    <ClCompile Include="CommandEdit.cpp" />
+    <ClCompile Include="ConstructionStepsBar.cpp" />
+    <ClCompile Include="ConstructionStepsListBox.cpp" />
+    <ClCompile Include="GeoObjTree.cpp" />
+    <ClCompile Include="ObjListBar.cpp" />
+    <ClCompile Include="PageListBox.cpp" />
+    <ClCompile Include="PageViewBar.cpp" />
+    <ClCompile Include="WatchBar.cpp" />
+    <ClCompile Include="AddToolDlg.cpp" />
+    <ClCompile Include="ButtonCmdEditor.cpp" />
+    <ClCompile Include="CommandsOrganizeDlg.cpp" />
+    <ClCompile Include="CustomizeToolboxDlg.cpp" />
+    <ClCompile Include="EditIconDlg.cpp" />
+    <ClCompile Include="ExpressionEditorDlg.cpp" />
+    <ClCompile Include="InputDlg.cpp" />
+    <ClCompile Include="MathDrawDlg.cpp" />
+    <ClCompile Include="NewFunctionDlg.cpp" />
+    <ClCompile Include="ObjBtnDlg.cpp" />
+    <ClCompile Include="OptionsDlg.cpp" />
+    <ClCompile Include="TextEditorDlg.cpp" />
+    <ClCompile Include="ScriptDlg.cpp" />
+    <ClCompile Include="ScriptDlgRun.cpp" />
+    <ClCompile Include="ScriptEdit.cpp" />
+    <ClCompile Include="ExpVl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeoExp.cpp" />
+    <ClCompile Include="MathDraw.cpp" />
+    <ClCompile Include="ValueConvert.cpp" />
+    <ClCompile Include="VGMath.cpp" />
+    <ClCompile Include="Script\SafeArrayHelper.cpp" />
+    <ClCompile Include="Script\ScriptObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="appfunc.h" />
+    <ClInclude Include="AxisInfo.h" />
+    <ClInclude Include="CommandArray.h" />
+    <ClInclude Include="gdi+.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="VGeoDrawer.h" />
+    <ClInclude Include="VGeoDrawerDoc.h" />
+    <ClInclude Include="VGeoDrawerView.h" />
+    <ClInclude Include="VGObjContainer.h" />
+    <ClInclude Include="VGGrid.h" />
+    <ClInclude Include="VGObject.h" />
+    <ClInclude Include="VGObjLabel.h" />
+    <ClInclude Include="ColorButton.h" />
+    <ClInclude Include="ColorPicker.h" />
+    <ClInclude Include="IconEditor.h" />
+    <ClInclude Include="StyleComboBox.h" />
+    <ClInclude Include="sizecbar.h" />
+    <ClInclude Include="CustomItem.h" />
+    <ClInclude Include="DynDialogEx.h" />
+    <ClInclude Include="DynDialogItemEx.h" />
+    <ClInclude Include="ListDynDialogEx.h" />
+    <ClInclude Include="PropertyGrid.h" />
+    <ClInclude Include="PropertyGridCombo.h" />
+    <ClInclude Include="PropertyGridInPlaceEdit.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="CmdEdit\CmdEdit.h" />
+    <ClInclude Include="CommandPromptListBox.h" />
+    <ClInclude Include="CmdEdit\ParamTooltipCtrl.h" />
+    <ClInclude Include="PropertiesBar.h" />
+    <ClInclude Include="PropertyButtonCmd.h" />
+    <ClInclude Include="PropertyGradient.h" />
+    <ClInclude Include="PropertyTextItem.h" />
+    <ClInclude Include="BtnItem.h" />
+    <ClInclude Include="ButtonPopup.h" />
+    <ClInclude Include="ObjToolBar.h" />
+    <ClInclude Include="CommandCtrlBar.h" />
+    <ClInclude Include="CommandEdit.h" />
+    <ClInclude Include="ConstructionStepsBar.h" />
+    <ClInclude Include="ConstructionStepsListBox.h" />
+    <ClInclude Include="GeoObjTree.h" />
+    <ClInclude Include="ObjListBar.h" />
+    <ClInclude Include="PageListBox.h" />
+    <ClInclude Include="PageViewBar.h" />
+    <ClInclude Include="WatchBar.h" />
+    <ClInclude Include="AddToolDlg.h" />
+    <ClInclude Include="ButtonCmdEditor.h" />
+    <ClInclude Include="CommandsOrganizeDlg.h" />
+    <ClInclude Include="CustomizeToolboxDlg.h" />
+    <ClInclude Include="EditIconDlg.h" />
+    <ClInclude Include="ExpressionEditorDlg.h" />
+    <ClInclude Include="InputDlg.h" />
+    <ClInclude Include="MathDrawDlg.h" />
+    <ClInclude Include="NewFunctionDlg.h" />
+    <ClInclude Include="ObjBtnDlg.h" />
+    <ClInclude Include="OptionsDlg.h" />
+    <ClInclude Include="TextEditorDlg.h" />
+    <ClInclude Include="ScriptDlg.h" />
+    <ClInclude Include="ScriptDlgRun.h" />
+    <ClInclude Include="ScriptEdit.h" />
+    <CustomBuildStep Include="ExpVl.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <ClInclude Include="GeoExp.h" />
+    <ClInclude Include="MathDraw.h" />
+    <ClInclude Include="VGMath.h" />
+    <ClInclude Include="Script\SafeArrayHelper.h" />
+    <ClInclude Include="Script\ScriptObject.h" />
+    <ClInclude Include="EventDlg.h" />
+    <ClInclude Include="GradientEditDlg.h" />
+    <ClInclude Include="PresSetting.h" />
+    <ClInclude Include="SplashDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\application.ico" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="res\bmp00003.bmp" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\ico00001.ico" />
+    <None Include="res\ico00002.ico" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\idr_main.ico" />
+    <None Include="res\line1.ico" />
+    <None Include="res\line2.ico" />
+    <None Include="res\line3.ico" />
+    <None Include="res\line4.ico" />
+    <None Include="res\GeoIcon\NewPoint.bmp" />
+    <None Include="res\newpoint.bmp" />
+    <None Include="res\Pencil and ruler.ico" />
+    <None Include="res\point.bmp" />
+    <None Include="res\point1.ico" />
+    <None Include="res\ray1.ico" />
+    <None Include="res\ribbon1.mfcribbon-ms" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\toolbar2.bmp" />
+    <None Include="res\toolbar3.bmp" />
+    <None Include="res\VGeoDrawer.ico" />
+    <None Include="res\VGeoDrawer.rc2" />
+    <None Include="res\VGeoDrawerDoc.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="VGeoDrawer.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VGeoDrawer.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="VGeoDrawer.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

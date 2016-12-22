@@ -1,0 +1,6 @@
+function Factorial(n)
+{
+  kq=1;
+  for (i=1;i<=n;i++) kq*=i;
+  return kq;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="VGeoDrawer">
+</Property><Property Name="Solution File" Value="E:\VGeoDrawer\VGeoDrawer.sln">
+</Property><Property Name="User Options File" Value="E:\VGeoDrawer\VGeoDrawer.suo">
+</Property><Property Name="Date" Value="Wednesday, May 04, 2011">
+</Property><Property Name="Time" Value="12:57 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="VGeoDrawer.sln" Description="File successfully backed up as E:\VGeoDrawer\VGeoDrawer.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="VGeoDrawer.suo" Description="File successfully backed up as E:\VGeoDrawer\VGeoDrawer.suo.old">
+</Event><Event ErrorLevel="0" Project="VGeoDrawer" Source="VGeoDrawer\VGeoDrawer.vcproj" Description="Converting project file 'E:\VGeoDrawer\VGeoDrawer\VGeoDrawer.vcproj'.">
+</Event><Event ErrorLevel="1" Project="VGeoDrawer" Source="VGeoDrawer\VGeoDrawer.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="VGeoDrawer" Source="VGeoDrawer\VGeoDrawer.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="VGeoDrawer" Source="VGeoDrawer\VGeoDrawer.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="VGeoDrawer" Source="VGeoDrawer\VGeoDrawer.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="VGeoDrawer" Source="VGeoDrawer\VGeoDrawer.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="VGeoDrawer" Source="VGeoDrawer\VGeoDrawer.vcproj" Description="Done converting to new project file 'E:\VGeoDrawer\VGeoDrawer\VGeoDrawer.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="VGeoDrawer" Source="VGeoDrawer\VGeoDrawer.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VGControls" Source="VGControls\VGControls.vcproj" Description="Converting project file 'E:\VGeoDrawer\VGControls\VGControls.vcproj'.">
+</Event><Event ErrorLevel="1" Project="VGControls" Source="VGControls\VGControls.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="VGControls" Source="VGControls\VGControls.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="VGControls" Source="VGControls\VGControls.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="VGControls" Source="VGControls\VGControls.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="VGControls" Source="VGControls\VGControls.vcproj" Description="Done converting to new project file 'E:\VGeoDrawer\VGControls\VGControls.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="VGControls" Source="VGControls\VGControls.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VGeoDrawer.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="VGeoDrawer.sln" Description="Converted">
+</Event></UpgradeLog>

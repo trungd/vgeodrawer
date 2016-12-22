@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Geometry Objs">
+      <UniqueIdentifier>{8b545831-844d-451f-b390-5ae90320979a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{f5a828f8-2c33-4df8-b9e3-48531d636985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\CSizingControlBar">
+      <UniqueIdentifier>{fbf5f646-2253-4c2f-a3cd-d98cefb0a5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\PropertyGrid">
+      <UniqueIdentifier>{48842bde-44dd-40f9-b554-717f16bc004b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\BCMenu">
+      <UniqueIdentifier>{674a0d72-b5dd-45b0-8a8e-a32eeec8c87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\CommandList">
+      <UniqueIdentifier>{d624e120-4ad5-4199-896b-205af568e64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlBars">
+      <UniqueIdentifier>{a55f28b1-afe9-411f-863c-bc024d7f9180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlBars\PropertyBar">
+      <UniqueIdentifier>{ad3d8872-eae2-4061-8083-5c53e450a574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlBars\ObjToolBar">
+      <UniqueIdentifier>{6697b123-9ec1-440a-98e0-75c439f3be93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlBars\CommandBar">
+      <UniqueIdentifier>{3f025675-6f14-4c65-a7df-fa0eef85917f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlBars\ConstructionSteps">
+      <UniqueIdentifier>{421f352e-b8e3-4242-9f99-6ff569f0d57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlBars\ObjListBar">
+      <UniqueIdentifier>{42adb90e-c6ad-434b-8cac-9ad5ecb2f316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlBars\PageViewBar">
+      <UniqueIdentifier>{efce4486-b2af-4a55-b5fe-6c7b702ce571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlBars\Watch">
+      <UniqueIdentifier>{f8f79af3-cb61-46dc-8c4b-a263cf068f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{6bfdee6a-92c7-4aa6-a2ea-26a895af3fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs\ScriptDlg">
+      <UniqueIdentifier>{680e7b5d-e6be-4f86-b85f-d90fb2b0d60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{fe893a9f-1155-4624-873d-bf48b6d80407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{5ecbfffc-4fd1-4f22-a237-39e13f97057d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="appfunc.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisInfo.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandArray.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDlg.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientEditDlg.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PresSetting.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashDlg.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VGeoDrawer.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VGeoDrawerDoc.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VGeoDrawerView.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VGObjContainer.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjValue.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGAngle.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGBezierSpline.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGBound.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGButton.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGButtonBase.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGCardinalSpline.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGCheckBox.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGCircle.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGConic.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGExpression.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGFunction.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGGrid.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGImage.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGLine.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGLineBase.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGObject.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGObjLabel.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGPanel.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGPoint.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGPolygon.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGRadioButton.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGRay.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGSegment.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGSlider.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGText.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="VGVector.cpp">
+      <Filter>Geometry Objs</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorButton.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPicker.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="IconEditor.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="StyleComboBox.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="sizecbar.cpp">
+      <Filter>Controls\CSizingControlBar</Filter>
+    </ClCompile>
+    <ClCompile Include="DynDialogEx.cpp">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="DynDialogItemEx.cpp">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDynDialogEx.cpp">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyGrid.cpp">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyGridCombo.cpp">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyGridInPlaceEdit.cpp">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyGridItem.cpp">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyGridSection.cpp">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="BCMenu.cpp">
+      <Filter>Controls\BCMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdEdit\CmdEdit.cpp">
+      <Filter>Controls\CommandList</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPromptListBox.cpp">
+      <Filter>Controls\CommandList</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdEdit\ParamTooltipCtrl.cpp">
+      <Filter>Controls\CommandList</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesBar.cpp">
+      <Filter>ControlBars\PropertyBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyButtonCmd.cpp">
+      <Filter>ControlBars\PropertyBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyGradient.cpp">
+      <Filter>ControlBars\PropertyBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyTextItem.cpp">
+      <Filter>ControlBars\PropertyBar</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnItem.cpp">
+      <Filter>ControlBars\ObjToolBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonPopup.cpp">
+      <Filter>ControlBars\ObjToolBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjToolBar.cpp">
+      <Filter>ControlBars\ObjToolBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandCtrlBar.cpp">
+      <Filter>ControlBars\CommandBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandEdit.cpp">
+      <Filter>ControlBars\CommandBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructionStepsBar.cpp">
+      <Filter>ControlBars\ConstructionSteps</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructionStepsListBox.cpp">
+      <Filter>ControlBars\ConstructionSteps</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoObjTree.cpp">
+      <Filter>ControlBars\ObjListBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjListBar.cpp">
+      <Filter>ControlBars\ObjListBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PageListBox.cpp">
+      <Filter>ControlBars\PageViewBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PageViewBar.cpp">
+      <Filter>ControlBars\PageViewBar</Filter>
+    </ClCompile>
+    <ClCompile Include="WatchBar.cpp">
+      <Filter>ControlBars\Watch</Filter>
+    </ClCompile>
+    <ClCompile Include="AddToolDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonCmdEditor.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandsOrganizeDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomizeToolboxDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="EditIconDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEditorDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="MathDrawDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFunctionDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjBtnDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditorDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptDlg.cpp">
+      <Filter>Dialogs\ScriptDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptDlgRun.cpp">
+      <Filter>Dialogs\ScriptDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptEdit.cpp">
+      <Filter>Dialogs\ScriptDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpVl.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoExp.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MathDraw.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueConvert.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="VGMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\SafeArrayHelper.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ScriptObject.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="appfunc.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisInfo.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandArray.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gdi+.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VGeoDrawer.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VGeoDrawerDoc.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VGeoDrawerView.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VGObjContainer.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VGGrid.h">
+      <Filter>Geometry Objs</Filter>
+    </ClInclude>
+    <ClInclude Include="VGObject.h">
+      <Filter>Geometry Objs</Filter>
+    </ClInclude>
+    <ClInclude Include="VGObjLabel.h">
+      <Filter>Geometry Objs</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorButton.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPicker.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="IconEditor.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="StyleComboBox.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="sizecbar.h">
+      <Filter>Controls\CSizingControlBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomItem.h">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="DynDialogEx.h">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="DynDialogItemEx.h">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="ListDynDialogEx.h">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyGrid.h">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyGridCombo.h">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyGridInPlaceEdit.h">
+      <Filter>Controls\PropertyGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="BCMenu.h">
+      <Filter>Controls\BCMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdEdit\CmdEdit.h">
+      <Filter>Controls\CommandList</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPromptListBox.h">
+      <Filter>Controls\CommandList</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdEdit\ParamTooltipCtrl.h">
+      <Filter>Controls\CommandList</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesBar.h">
+      <Filter>ControlBars\PropertyBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyButtonCmd.h">
+      <Filter>ControlBars\PropertyBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyGradient.h">
+      <Filter>ControlBars\PropertyBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyTextItem.h">
+      <Filter>ControlBars\PropertyBar</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnItem.h">
+      <Filter>ControlBars\ObjToolBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonPopup.h">
+      <Filter>ControlBars\ObjToolBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjToolBar.h">
+      <Filter>ControlBars\ObjToolBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandCtrlBar.h">
+      <Filter>ControlBars\CommandBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandEdit.h">
+      <Filter>ControlBars\CommandBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructionStepsBar.h">
+      <Filter>ControlBars\ConstructionSteps</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructionStepsListBox.h">
+      <Filter>ControlBars\ConstructionSteps</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoObjTree.h">
+      <Filter>ControlBars\ObjListBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjListBar.h">
+      <Filter>ControlBars\ObjListBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PageListBox.h">
+      <Filter>ControlBars\PageViewBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PageViewBar.h">
+      <Filter>ControlBars\PageViewBar</Filter>
+    </ClInclude>
+    <ClInclude Include="WatchBar.h">
+      <Filter>ControlBars\Watch</Filter>
+    </ClInclude>
+    <ClInclude Include="AddToolDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonCmdEditor.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandsOrganizeDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizeToolboxDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="EditIconDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEditorDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="MathDrawDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFunctionDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBtnDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditorDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptDlg.h">
+      <Filter>Dialogs\ScriptDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptDlgRun.h">
+      <Filter>Dialogs\ScriptDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptEdit.h">
+      <Filter>Dialogs\ScriptDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoExp.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathDraw.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="VGMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\SafeArrayHelper.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ScriptObject.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDlg.h" />
+    <ClInclude Include="GradientEditDlg.h" />
+    <ClInclude Include="PresSetting.h" />
+    <ClInclude Include="SplashDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\application.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\line1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\line2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\line3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\line4.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GeoIcon\NewPoint.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\newpoint.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Pencil and ruler.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\point.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\point1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ray1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\VGeoDrawer.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\VGeoDrawer.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\VGeoDrawerDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="VGeoDrawer.reg" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\ribbon1.mfcribbon-ms" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VGeoDrawer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="ExpVl.h">
+      <Filter>Math</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+</Project>
