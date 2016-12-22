@@ -4,6 +4,10 @@
 
 Software with geometry drawing and calculation features.
 
+[Download Binary File](https://github.com/dvtrung/vgeodrawer/releases/download/1.0/VGeoDrawer.rar)
+
+(require running VGeoDrawer.reg to save default configurations)
+
 ## About this software
 
 This program was written when I was a high school student back in 2010. When learning geometry, I used some software such as Geometer's Sketchpad, Cabri Geometry or GeoGebra but they seemed to be lack of some advanced functions. So an idea come to me that I could write a soft integrating some more useful features. The purpose is just for fun.
