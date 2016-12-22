@@ -18,14 +18,14 @@ With the use of commands, users can
 
 Besides simple constructions of line, circle, intersection point, midpoint, ... VGeoDrawer can do some advanced constructions of incircle, excircle, radical axis, ..., which may useful in dealing with more difficult mathematics problems.
 
-![Construction of incircle and excircle](https://3.bp.blogspot.com/-ZOLDcRpb8HM/UMAZ0neRhgI/AAAAAAAAAGI/oogIp68itjA/s640/Untitled.png)
+![Construction of incircle and excircle](http://3.bp.blogspot.com/-ZOLDcRpb8HM/UMAZ0neRhgI/AAAAAAAAAGI/oogIp68itjA/s1600/Untitled.png)
 
 Construction of incircle and excircle
 
-![](https://1.bp.blogspot.com/-3OuZMsw2HaM/UMAboxotxbI/AAAAAAAAAGQ/ucLipnbx4eU/s640/Untitled5.png)
+![](http://1.bp.blogspot.com/-3OuZMsw2HaM/UMAboxotxbI/AAAAAAAAAGQ/ucLipnbx4eU/s1600/Untitled5.png)
 
 Find the locus
 
-![](https://1.bp.blogspot.com/-iC--XvEChl0/UMLmdUOwyII/AAAAAAAAAIk/eQXxpgEihJY/s640/Untitled.png)
+![](http://1.bp.blogspot.com/-iC--XvEChl0/UMLmdUOwyII/AAAAAAAAAIk/eQXxpgEihJY/s1600/Untitled.png)
 
 Command line power in calculation
