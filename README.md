@@ -6,7 +6,7 @@ Software with geometry drawing and calculation features.
 
 ## About this software
 
-This program was written when I was a high school student. When learning geometry, I used some software such as Geometer's Sketchpad, Cabri Geometry or GeoGebra but they seemed to be lack of some advanced functions. So an idea come to me that I could write a soft integrating some more useful features. The purpose is just for fun.
+This program was written when I was a high school student back in 2010. When learning geometry, I used some software such as Geometer's Sketchpad, Cabri Geometry or GeoGebra but they seemed to be lack of some advanced functions. So an idea come to me that I could write a soft integrating some more useful features. The purpose is just for fun.
 
 THIS PROJECT HAS BEEN TERMINATED.
 
