@@ -10,7 +10,7 @@ Software with geometry drawing and calculation features.
 
 ## About this software
 
-This program was written when I was a high school student back in 2010. When learning geometry, I used some software such as Geometer's Sketchpad, Cabri Geometry or GeoGebra but they seemed to be lack of some advanced functions. So an idea come to me that I could write a soft integrating some more useful features. The purpose is just for fun.
+Written in 2010.
 
 THIS PROJECT HAS BEEN TERMINATED.
 
@@ -20,7 +20,7 @@ With the use of commands, users can
 - assert geometry properties, calculate (supporting square root representation) on geometry subjects based on their coordinates. 
 - define a new constructions.
 
-Besides simple constructions of line, circle, intersection point, midpoint, ... VGeoDrawer can do some advanced constructions of incircle, excircle, radical axis, ..., which may useful in dealing with more difficult mathematics problems.
+Besides simple constructions of line, circle, intersection point, midpoint, etc. VGeoDrawer can do some advanced constructions of incircle, excircle, radical axis, ..., which may useful in dealing with more difficult mathematical problems.
 
 ![Construction of incircle and excircle](http://3.bp.blogspot.com/-ZOLDcRpb8HM/UMAZ0neRhgI/AAAAAAAAAGI/oogIp68itjA/s1600/Untitled.png)
 
