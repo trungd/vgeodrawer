@@ -2,11 +2,11 @@
 
 ## Brief Introduction
 
-Software with geometry drawing and calculation features.
+Software with geometry drawing and calculating features.
 
 [Download Binary File](https://github.com/dvtrung/vgeodrawer/releases/download/1.0/VGeoDrawer.rar)
 
-(require running VGeoDrawer.reg to save default configurations)
+(require executing VGeoDrawer.reg to init default configurations)
 
 ## About this software
 
